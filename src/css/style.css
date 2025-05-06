@@ -1,0 +1,5 @@
+@import url('./block/test.scss');
+body {
+  background-color: #181818;
+  color: white;
+}
