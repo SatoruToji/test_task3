@@ -1,14 +1,27 @@
 .start {
   margin: 10%;
   background-image: url('/src/image/start/Background.png');
-  // background-size: cover;
   background-repeat: no-repeat;
-  background-position: right center;
+  background-position: right top;
+  // border-block: 1px solid red;
   &__eyebrow {
     font-size: 2em;
   }
   &__title {
     margin-block: 2% 5%;
     font-size: 3em;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 96px;
+  }
+  &__item {
+    width: 22%;
+    color: #E0E0E0;
+    &-title {
+      font-size: 18px;
+      margin-block: 1em
+    }
   }
 }
