@@ -1,0 +1,14 @@
+.start {
+  margin: 10%;
+  background-image: url('/src/image/start/Background.png');
+  // background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right center;
+  &__eyebrow {
+    font-size: 2em;
+  }
+  &__title {
+    margin-block: 2% 5%;
+    font-size: 3em;
+  }
+}

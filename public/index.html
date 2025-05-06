@@ -6,32 +6,45 @@
     <title>supabase</title>
   </head>
   <body>
-    <header>
-      <span>
-      <a href="/">supobase</a>
-      <nav>
+    <header class="header header__container">
+      <div class="flex items-center">
+        <a class="header__logo" href="/">supobase</a>
+        <nav>
+          <ul class="header__list">
+            <li>
+              <button>Product</button>
+            </li>
+            <li>
+              <button>Developers</button>
+            </li>
+            <li>
+              <button>Beta</button>
+            </li>
+            <li>
+              <button>Pricing</button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <ul class="header__list">
         <li>
-          <button>Product</button>
-        </li>
-        <li>
-          <button>Developers</button>
-        </li>
-        <li>
-          <button>Beta</button>
-        </li>
-        <li>
-          <button>Pricing</button>
-        </li>
-      </nav>
-      </span>
-      <ul>
-        <li>
-          <button>Start your project</button>
+          <button class="green-button">Start your project</button>
         </li>
         <li>
           <button>Sign in</button>
         </li>
       </ul>
     </header>
+    <main>
+      <article class="start">
+        <span class="start__eyebrow">Storage</span>
+        <h1 class="start__title">Store and serve <br> any type of digital content</h1>
+        <section class="section">
+          <p class="section__description">An open source Object store service with unlimited, for<br>any file type.</p>
+          <p class="section__description">With custom policies and permissions that are familiar easy to<br>implement.</p>
+          <a href="/start" class="green-button section__link">Start a project</a>
+        </section>
+      </article>
+    </main>
   </body>
 </html>
