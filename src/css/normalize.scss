@@ -13,6 +13,7 @@ li {
 button {
   background-color: transparent;
   color: white;
+  white-space: nowrap;
   border: none;
   cursor: pointer;
   
@@ -29,4 +30,8 @@ a {
   &:hover {
     text-decoration: underline;
   }
+}
+
+p {
+  color: #E0E0E0;
 }

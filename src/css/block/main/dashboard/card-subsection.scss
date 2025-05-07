@@ -1,0 +1,12 @@
+.card-subsection {
+  margin-block: 1em 20px;
+  padding: 4%;
+  background-color: #1F1F1F;
+  border-top: 1px solid rgb(67, 67, 67);
+  &__title {
+    font-size: 1em;
+  }
+  &__description {
+    margin-block: 4px 1em;
+  }
+}

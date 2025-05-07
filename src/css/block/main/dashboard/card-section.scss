@@ -1,0 +1,20 @@
+.card-section {
+  &__title {
+    // margin-bottom: 1em;
+    font-size: 18px;
+  }
+  &__subtitle {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    margin-left: 4%;
+  }
+  &__link {
+    display: inline-block;
+    margin-left: 4%;
+    background-color: #1374EF;
+    &:hover {
+      background-color: #498de7;
+    }
+  }
+}

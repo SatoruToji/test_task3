@@ -1,0 +1,15 @@
+.object-explorer {
+  display: flex;
+  margin-top: 5%;
+  column-gap: 15%;
+  &__list {
+    display: flex;
+    column-gap: 2%;
+  }
+  &__button {
+    padding: 7px 11px;
+  }
+  &__img {
+    width: 100%;
+  }
+}
